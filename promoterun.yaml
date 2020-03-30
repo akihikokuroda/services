@@ -5,7 +5,9 @@ metadata:
 spec:
   params:
   - name: github-secret
-    value: promotesecret 
+    value: promotesecret
+  - name: github-config
+    value: promoteconfigmap
   - name: from
     value: "https://github.com/akihikokuroda/gitops-test.git"
   - name: to
